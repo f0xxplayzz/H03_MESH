@@ -1,0 +1,186 @@
+.friendifyerHeader {
+    background-color: aliceblue;
+    text-align: center;
+    width:30%;
+    margin: auto;
+    font-family: "Pacifico";
+    font-size: larger;
+    border: 4px double aqua;
+    border-radius: 2em;
+}
+
+.left {
+    background-color: azure;
+    width:10%;
+    height: 100%;
+    margin-left: auto;
+    float: left;
+    font-family: "Adobe Devanagari";
+    border: 4px solid darkblue;
+    border-radius: 2em;
+}
+
+.right {
+    background-color: azure;
+    width:10%;
+    height: 100%;
+    margin-right: auto;
+    font-family: "Adobe Devanagari";
+    border: 4px solid darkblue;
+    float: right;
+    border-radius: 2em;
+}
+
+.center {
+    background-color: azure;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: "Adobe Devanagari";
+    border: 4px solid darkblue;
+    border-radius: 0.8em;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    padding: 1em;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.chat {
+    background-color: azure;
+    width: 45%;
+    float: left;
+    border: 4px solid darkblue;
+    border-radius: 0.8em;
+}
+
+.groupChat {
+    background-color: azure;
+    width:45%;
+    float: right;
+    border: 4px solid darkblue;
+    border-radius: 0.8em;
+}
+
+.controlBar {
+    font-family: Arial;
+    text-align: center;
+}
+
+body {
+    background-color: #0c5890;
+}
+
+.map {
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 0.8em;
+}
+
+.messages {
+    display: block;
+    margin:auto;
+    border-radius: 0.8em;
+    width: 90%;
+    height: 300px;
+}
+
+.chatBoxMsg {
+    width: 60%;
+    margin: auto;
+}
+
+.messageCreator {
+    width: 100%;
+    padding: 0.5em;
+    display: block;
+    margin: auto;
+}
+
+.send {
+    padding: 0.5em;
+    display: block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.chatElement {
+    padding: 0.3em;
+    vertical-align: center;
+    margin: auto;
+}
+
+.chatTitle {
+    font-family: "Arial";
+    text-align: center;
+}
+
+.events {
+    background-color: azure;
+    position: relative;
+    margin-bottom: auto;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 0.8em;
+}
+
+.event {
+    margin: auto;
+    width: 70%;
+    border: 5px aqua solid;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.eventTitle {
+    font-family: Arial;
+    text-align: center;
+}
+
+.eventImg {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.mesh {
+    background-color: black;
+}
+
+.eventDescription {
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 2em;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 2em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
