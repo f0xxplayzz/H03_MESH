@@ -13,7 +13,7 @@ Unsere Hauptidee ist ein komplett anonymes Interessen Tinder ohne Profilbilder, 
 ## Prototyp
 
 Der Prototyp unserer Applikation ist in den [Dokumenten](../Dokumente/friendifyer.xd) zu finden.
-Der Prototyp ist auch online über [diesen Link](https://xd.adobe.com/view/992dc617-d3ac-458f-845a-c5e8d4149ac4-cc7e/screen/d676436c-b3f5-43cf-8ba1-845c9d8f66fa?fullscreen&hints=off) abrufbar.
+Der Prototyp ist auch online über [diesen Link](https://xd.adobe.com/view/992dc617-d3ac-458f-845a-c5e8d4149ac4-cc7e/?fullscreen&hints=off) abrufbar.
 
 Es existieren auch schon Grundzüge unserer Webapplikation in Form von code um diesen auszuführen muss maven auf ihrem Rechner installiert sein. Dann begebt ihr euch ins Unterverzeichnis h03 und führt dort den Befehl "mvn quarkus:dev" aus, dann könnt ihr die Webseite mit localhost:8080 erreichen.
 
