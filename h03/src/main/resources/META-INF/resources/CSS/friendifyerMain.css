@@ -184,3 +184,16 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+.newEvent {
+    margin:auto;
+    text-align: center;
+}
+
+input {
+    padding: 0.2em;
+}
+
+select{
+    padding:0.2em;
+}

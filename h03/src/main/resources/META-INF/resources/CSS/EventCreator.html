@@ -3,8 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>friendifyer - Events</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/friendifyerMain.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <header class="friendifyerHeader">
+        <h1 class="title">friendifyer</h1>
+    </header>
+    </br>
+    <div class="container">
+        <div class="left">
+            <h1 class="chatTitle">For You</h1>
+            <p class="controlBar">Meine Interessen</p>
+            <p class="controlBar">Mein Profil</p>
+            <p class="controlBar">Meine News</p>
+            <p class="controlBar">Einstellungen</p>
+            <p class="controlBar"></p>
+        </div>
+        <div class="right">
+            <h1 class="chatTitle">Deine Region</h1>
+            <p class="controlBar">
+                <a href="CSS/EventCreator.html">Events</a>
+            </p>
+            <p class="controlBar">Beratungsstellen</p>
+            <p class="controlBar">Attraktionen</p>
+            <p class="controlBar">Vereine</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="center">
+            <div class="events">
+                <h1 class="chatTitle">Events in deiner Gegend</h1>
+                <div class="event">
+                    <h2 class="eventTitle">#MESH22</h2>
+                    <div class="eventImg">
+                        <img src="https://meshmentoring.de/assets/Logo.svg" class="mesh">
+                    </div>
+                    <p class="eventDescription">
+                        Der “MESH Innovation Summit” ist ein dreitägiger Hackathon, bei dem Teams kreative Lösungsansätze für reale Problemstellungen der Challenge-Setter erarbeiten. Auf die innovativsten Ideen warten dabei Preise, Goodies und weiterführendes Coaching.
+                        Damit Ihr eure Ideen auch in die Realität umsetzen könnt, wird das Event zusätzlich von zahlreichen Speakern, Mentoren und Partnern unterstützt.
+                    </p>
+                </div>
+                <div class="event">
+                    <h2 class="eventTitle">#MESH22</h2>
+                    <div class="eventImg">
+                        <img src="https://meshmentoring.de/assets/Logo.svg" class="mesh">
+                    </div>
+                    <p class="eventDescription">
+                        Der “MESH Innovation Summit” ist ein dreitägiger Hackathon, bei dem Teams kreative Lösungsansätze für reale Problemstellungen der Challenge-Setter erarbeiten. Auf die innovativsten Ideen warten dabei Preise, Goodies und weiterführendes Coaching.
+                        Damit Ihr eure Ideen auch in die Realität umsetzen könnt, wird das Event zusätzlich von zahlreichen Speakern, Mentoren und Partnern unterstützt.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="events">
+            <h1 class="eventTitle">Neues Event erstellen</h1>
+            <p class="eventDescription">Hier kannst du Events erstellen. Da du als ehrenamtlicher Mitarbeiter angemeldet
+                bist kannst du
+            Events für spezielle Gruppe mit Migrationshintergrund erstellen. Ein normaler Nutzer kann diese nicht.</p>
+            <form class="newEvent">
+                <input type="text" placeholder="Eventname"></br>
+                <input type="text" placeholder="Ort"></br>
+                <label>Migrationshintergrund</label></br>
+                <select>
+                    <option>seit 1 Jahr in Deutschland</option>
+                    <option>seit 2 Jahren in Deutschland</option>
+                    <option>seit 3 Jahren in Deutschland</option>
+                    <option>seit 5 Jahren in Deutschland</option>
+                    <option>gebürtig deutsch mit Migrationsgeschichte</option>
+                    <option>Event ist offen für alle</option>
+                </select>
+                </br>
+                <label>Nationalität</label></br>
+                <select>
+                    <option>Keine spezielle Nationalität</option>
+                    <option>Deutsch</option>
+                    <option>Türkisch</option>
+                    <option>Ukrainisch</option>
+                    <option>Syrisch</option>
+                    <option>Russisch</option>
+                    <option>...</option>
+                </select>
+                </br>
+                <input type="date">
+                </br>
+                <button>Erstellen</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
